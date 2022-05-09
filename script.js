@@ -40,7 +40,7 @@ const Keyboard = {
     const createContainerForKeyboard = document.createElement('div');
     createContainerForKeyboard.classList.add('wrapper');
     document.body.appendChild(createContainerForKeyboard);
-    document.querySelector('.wrapper').innerHTML = '<div class="title"><p>Windows, ctrl+shift</p></div><textarea rows="10" type="text" id="input"></textarea> <div class="keyboard"> </div>';
+    document.querySelector('.wrapper').innerHTML = '<div class="title"><p>Windows, alt left+shift left</p></div><textarea rows="10" type="text" id="input"></textarea> <div class="keyboard"> </div>';
   },
   clearKeys() {
     document.querySelector('.keyboard').innerHTML = '';
